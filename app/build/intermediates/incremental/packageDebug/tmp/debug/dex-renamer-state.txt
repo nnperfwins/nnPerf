@@ -1,0 +1,4 @@
+#Thu Oct 26 01:00:52 CST 2023
+base.0=D\:\\TFLite_WWWWWWork\\demo\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
