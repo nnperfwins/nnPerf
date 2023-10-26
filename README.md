@@ -1,9 +1,24 @@
-# nnPerf + TFLite Android Image Classifier App
+# nnPerf + TFLite Android Image Classifier App Demo
+
+[Homepage](https://nnperfwins.github.io/) |
+[Video Demo](https://nnperfwins.github.io/#key_features) |
+[Visualization tool](https://nnperfwins.github.io/#online_tool) |
+[Citation](https://github.com/nnperfwins/nnPerf#Citation) |
+
+nnPerf is a real-time on-device profiler designed to collect and analyze the DNN model runtime inference latency on mobile platforms. nnPerf demystifies the hidden layers and metrics used for pursuing DNN optimizations and adaptations at the granularity of operators and kernels, ensuring every facet contributing to a DNN model's runtime efficiency is easily accessible to mobile developers via well-defined APIs.
+With nnPerf, the mobile developers can easily identify the bottleneck in model run-time efficiency and optimize the model architecture to meet system-level objectives (SLO).
+For more design details, please refer to our Sensys 2023 paper.
+
+## [Key Features](https://nnperfwins.github.io/#key_features)
+
+- **Plug-and-play design principles**
+- **Real-time on-device profiling**
+- **Support measuring fine-grained information at the GPU kernel level**
 
 
 ## To Install / Run profile
 
-### Run with apk
+### Quick start with apk
 
 1. Use adb to connect to smartphones or mobile platforms (Android basic system).
 
@@ -72,4 +87,17 @@
 	SSDMobileV2
 
 	Esrgan
+```
+
+## Citation
+If you find nnPerf useful in your research, please consider citing:
+
+```bibtex
+@inproceedings{chu2023nnperf,
+    title={nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms},
+    author={Haolin Chu, Xiaolong Zheng, Liang Liu, Huadong Ma},
+    booktitle={The 21th ACM Conference on Embedded Networked Sensor Systems},
+    pages={TBD},
+    year={2023}
+}
 ```
