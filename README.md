@@ -20,9 +20,13 @@ For more design details, please refer to our Sensys 2023 paper.
 
 ### Quick start with apk
 
-1. Use adb to connect to smartphones or mobile platforms (Android basic system).
+It is recommended to run nnPerf on system versions below Android 12.
 
-2. Install the nnPerf_v1.1.apk.
+1. Download nnPerf_v1.1.apk from the release version.
+
+2. Use adb to connect to smartphones or mobile platforms (Android basic system).
+
+3. Install the nnPerf_v1.1.apk.
 
 	```shell
 	adb install -t '.\nnPerfAPKinstaller\nnPerf_v1.0.apk'
