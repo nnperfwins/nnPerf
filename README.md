@@ -101,7 +101,6 @@ If you find nnPerf useful in your research, please consider citing:
     title={nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms},
     author={Haolin Chu, Xiaolong Zheng, Liang Liu, Huadong Ma},
     booktitle={The 21th ACM Conference on Embedded Networked Sensor Systems},
-    pages={TBD},
     year={2023}
 }
 ```
