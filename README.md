@@ -97,10 +97,15 @@ It is recommended to run nnPerf on system versions below Android 12.
 If you find nnPerf useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{chu2023nnperf,
-    title={nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms},
-    author={Haolin Chu, Xiaolong Zheng, Liang Liu, Huadong Ma},
-    booktitle={The 21th ACM Conference on Embedded Networked Sensor Systems},
-    year={2023}
-}
+	@inproceedings{nnPerf,
+		author = {Chu, Haolin and Zheng, Xiaolong and Liu, Liang and Ma, Huadong},
+		title = {nnPerf: Demystifying DNN Runtime Inference Latency on Mobile Platforms},
+		year = {2024},
+		publisher = {Association for Computing Machinery},
+		address = {New York, NY, USA},
+		url = {https://doi.org/10.1145/3625687.3625797},
+		doi = {10.1145/3625687.3625797},
+		booktitle = {Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems},
+		pages = {125–137},
+	}
 ```
